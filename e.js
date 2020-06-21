@@ -339,5 +339,3 @@ client12.on('messageReactionAdd', function(reaction, user) {
 		client8.stopTyping(channel);
 	}, (Math.floor(Math.random() * (4 - 2)) + 2 + 1) * 1000);
 });
-
-// var timer = setInterval(sendRandom, 900 * 1000);
